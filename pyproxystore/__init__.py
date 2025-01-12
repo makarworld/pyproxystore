@@ -260,7 +260,7 @@ class ProxyStore:
         username: str = None,
         password: str = None,
         generate_auth: int = 0,
-        coupon: str = None,
+        coupon: str = "h8B9bMDD", # support dev | 5% discount
         nokey: bool = False,
     ) -> dict:
         """
