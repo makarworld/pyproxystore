@@ -2,7 +2,7 @@ from curl_cffi import requests
 
 
 class ProxyStore:
-    async def __init__(self, api_key: str = None):
+    def __init__(self, api_key: str = None):
         self.api_key = api_key
         self.base_uri = f"https://proxy-store.com/api/{api_key}/"
 
